@@ -1,0 +1,29 @@
+body  {
+  background-color: transparent;
+}
+ul {
+    margin: 0;
+    background-color: white;
+}
+li {
+  display: inline-block;
+background: gray;
+}
+li a {
+display: block;
+    color: white;
+    padding: 8px 16px;
+}
+.activ {
+  background-color: blue;
+  color: white;
+}
+li a:hover:not(.activ) {
+    background-color: #555;
+    color: white;
+}
+footer{
+  font-size:30px;
+  color: white;
+  float: right;
+}

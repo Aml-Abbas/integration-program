@@ -1,0 +1,61 @@
+body{
+  background-color:black;
+  color: white;
+}
+h1, h2 {
+  color:white;
+}
+
+.Calles-foto{
+  width: 200px;
+  height: 200px;
+  border-radius:15%;
+
+  
+}
+.Maxs-foto{
+   width: 200px;
+  height: 200px;
+  border-radius:15%;
+}
+b{
+  color: white;
+}
+ul {
+  
+    margin: 0;
+    background-color: black;
+}
+li {
+  display: inline-block;
+background: gray;
+}
+li a {
+display: block;
+    color: white;
+    padding: 8px 16px;
+}
+.activ {
+  background-color: blue;
+  color: white;
+}
+li a:hover:not(.activ) {
+    background-color: #555;
+    color: white;
+}
+footer{
+  font-size:30px;
+  color: white;
+  float: right;
+}
+.dropdown  {
+  position: relative;
+}
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: gray;
+}
+.dropdown:hover .dropdown-content{
+  display:block;
+}
